@@ -1,0 +1,41 @@
+# Code Reviewer Backend
+
+This project is a backend service for a code reviewer application. It uses Node.js and Express to provide a server that can handle HTTP requests and responses. The service includes functionality for reviewing JavaScript code snippets and providing feedback.
+
+## Features
+
+- **Code Review**: The backend can review JavaScript code snippets and provide feedback on potential issues and improvements.
+- **Environment Configuration**: Uses `dotenv` to manage environment variables.
+- **Cross-Origin Resource Sharing (CORS)**: Enabled to allow requests from different origins.
+- **Google Generative AI**: Integrates with Google's generative AI for advanced code analysis.
+
+## Project Structure
+
+- **server.js**: The entry point of the application. It starts the server on port 3000.
+- **src/app.js**: Contains the main application logic (not shown in the provided files).
+- **temp.js**: Contains a sample `sum` function that needs improvement.
+- **temp.md**: Contains a detailed review and suggestions for improving the `sum` function in `temp.js`.
+- **package.json**: Lists the project dependencies and scripts.
+- **.env**: Stores environment variables, such as the Google Gemini API key.
+
+## How to Run
+
+1. **Install Dependencies**: Run `npm install` to install all required dependencies.
+2. **Set Up Environment Variables**: Create a `.env` file in the root directory and add your environment variables (e.g., `GOOGLE_GEMINI_KEY`).
+3. **Start the Server**: Run `node server.js` to start the server. The server will listen on port 3000.
+
+## Example Usage
+
+- **Review Code**: Send a JavaScript code snippet to the backend, and it will return feedback on potential issues and improvements.
+- **Sum Function**: The `temp.js` file contains a simple `sum` function that can be improved based on the suggestions in `temp.md`.
+
+## Dependencies
+
+- **Express**: A web framework for Node.js.
+- **dotenv**: Loads environment variables from a `.env` file.
+- **cors**: Enables Cross-Origin Resource Sharing.
+- **@google/generative-ai**: Integrates with Google's generative AI for advanced code analysis.
+
+## License
+
+This project is licensed under the ISC License.
