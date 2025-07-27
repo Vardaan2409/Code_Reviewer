@@ -35,7 +35,3 @@ This project is a backend service for a code reviewer application. It uses Node.
 - **dotenv**: Loads environment variables from a `.env` file.
 - **cors**: Enables Cross-Origin Resource Sharing.
 - **@google/generative-ai**: Integrates with Google's generative AI for advanced code analysis.
-
-## License
-
-This project is licensed under the ISC License.
